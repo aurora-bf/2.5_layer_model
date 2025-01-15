@@ -1,7 +1,14 @@
 .ipynb_checkpoints
 __pycache__
-/main_2.5layer/
+/main_2.5layer/.ipynb_checkpoints/
+/main_2.5layer/__pycache__
+/maiin_2.5layer/image_outputs/
 /main_2.5layer/replace_phrase.py/
+/main_2.5layer/numpyfiles_analyticintermediate/
+/main_2.5layer/older_files/
+/main_2.5layer/intermediate_files_cleaned/
+/main_2.5layer/output_files/
+/main_2.5layer/parameters_notused_paper/
 /3layer_check/old_files/
 /3layer_check/.ipynb_checkpoints/
 /3layer_check/__pycache__/
