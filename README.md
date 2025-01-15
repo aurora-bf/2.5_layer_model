@@ -5,7 +5,7 @@ This repo has code for the numerical 2.5-layer model utilized throughout the pap
 ## Numerical 2.5 layer reduced gravity model
 The numerical model is a 2.5-layer linearized reduced gravity model - i.e. 2 active layers over a quiesscent abyss. It is (optionally) forced by a zonal wind through a channel that the user specifies. The boundaries are periodic in the re-entrant channel (where the zonal wind is located) and otherwise there is no normal flow through boundaries and a no slip condition applied. The model is built on an Arakawa C grid.
 
-Much of the model code structure is a modified version of the single layer linearized shallow water code by Penn and Vallis (see https://empslocal.ex.ac.uk/people/staff/gv219/codes/linearshallowwater.py)
+**Much of the model code structure is a modified version of the single layer linearized shallow water code by Penn and Vallis** (see https://empslocal.ex.ac.uk/people/staff/gv219/codes/linearshallowwater.py). The equations solved are different and we have added different boundary conditions + an RK4 solver as well as other modifications. However, some functions/comments remain unmodified as they originally appeared in the cited code above.
 
 The numerical experiments are conducted such that the grid functions and bulk of the model are located in model python files (e.g., /main_2.5layer/model.py). The model can be run in execute python files found in each subfolder which corresponds to a parameter set-up (e.g., /main_2.5layer/250m_rhodiff2/execute_layer1_masspert_fromstationary_rk4_visc8E3_noslip_equator0_nonlinear_250m_g1equalg2.py).
 
