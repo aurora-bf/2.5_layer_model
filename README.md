@@ -32,14 +32,13 @@ main_2.5layer/domain_diagram.ipynb: Fig 2
 main_2.5layer/varyparameters.ipynb: Fig 6
 
 main_2.5layer/plotting_figure7.ipynb: Fig 7. This main notebook depends on results produced in analytic_unequalstratification.ipynb and analytic_wind.ipynb.
-
-LEFT TO DO: Another clean up and add comments to the _analytic notebooks. And again look at execute and model files. 
+  
 
 Fig 1 is a schematic not made in this repo.
 
 Using numerical results for different parameter set-ups (used in Figure 6), one could easily modify the above notebooks to get analytic results for different set-ups as well.
 
-Large produced in execute files and needed for recreating the analytic results are available at: https://drive.google.com/drive/folders/1Z1Tk683nuRAuMG4KPhCP8TACMFuEWxJC?usp=sharing so one doesn't need to run the supplied execute files to recreate the main results in the paper.
+Large files produced in execute files and needed for recreating the analytic results are available at: https://drive.google.com/drive/folders/1Z1Tk683nuRAuMG4KPhCP8TACMFuEWxJC?usp=sharing so one doesn't need to run the supplied execute files to recreate the main results in the paper.
 
 ## Additional notes 
 1. The conda environment used when creating this repo is in environment_apr2024.yml and the environment can be recreated using conda env create -f environment_apr2024.yml
