@@ -1,5 +1,5 @@
 # Code for ''A theory for how the depth of meltwater injection impacts regional sea level evolution"
-Preprint: https://essopenarchive.org/users/751256/articles/1215851-an-analytical-theory-for-the-sensitivity-of-regional-sea-level-adjustment-to-the-depth-of-antarctic-meltwater-fluxes
+Paper: https://journals.ametsoc.org/view/journals/phoc/aop/JPO-D-24-0153.1/JPO-D-24-0153.1.xml
 
 This repo has code for the numerical 2.5-layer model utilized throughout the paper, implementation of the analytic solution, and figure creation.
 ## Numerical 2.5 layer reduced gravity model
